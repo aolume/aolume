@@ -1,0 +1,108 @@
+/* CSS Document - Fabricio Oliveira */
+
+/* footer */
+#footer{
+    padding: 60px  0px 60px 0px;
+    background-color: #ff9100;
+}
+
+/* footer-title */
+#footer .footer-title{
+    padding: 0px 0px 0px 0px;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: oblique;
+    color: black;
+}
+
+/* footer-card */
+#footer .card{
+    background: transparent;
+    border: none;
+}
+
+/* footer-card */
+#footer .card-body{
+    padding: 20px 0px;
+}
+
+/* footer-icon */
+#footer .footer-icon{
+    color: black;
+    font-size: 40px;
+}
+
+/* footer-card-title */
+#footer .card-title{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: oblique;
+    color: black;
+}
+
+
+/* footer-box */
+.footer-box{
+    position: relative;
+    top: 60px;
+    padding: 20px 0px;
+    background-color: #b86903;
+    color: black;
+}
+
+/* footer-box p */
+.footer-box p{
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-size: 14px;
+}
+
+
+.google-maps{
+    border-radius: 20px;
+}
+
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    /* footer */
+    #footer{
+        padding: 40px  0px 40px 0px;
+        background-color: #ff9100;
+    }
+
+
+    /* footer-title */
+    #footer .footer-title{
+        padding: 0px 0px 0px 0px;
+        font-size: 5vw;
+        font-weight: 500;
+        font-style: oblique;
+        color: black;
+    }
+
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+
+
+}

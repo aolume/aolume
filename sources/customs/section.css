@@ -1,0 +1,145 @@
+/* CSS Document - Fabricio Oliveira */
+
+/* section */
+#section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/backgrounds/bg_07.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center right;
+    position: relative;
+    z-index: 2;
+}
+
+
+.section-box{
+    width: 100%;
+    height: 100vh;
+    background: #00000042;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.section-title{
+    color: #ff9100;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: oblique;
+    padding: 0px 0px;
+}
+
+.section-subtitle{
+    color: #ff9100;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: oblique;
+    padding: 0px 0px;
+}
+
+
+.section-box .card{
+    background-color: transparent;
+    border: 0px solid #0f1114;
+}
+
+
+.section-box .card-img{
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 300px;
+    transform: rotate(20deg);
+    border: 8px solid #36363675;
+}
+
+.section-box .card-title{
+    line-height: 30px;
+    font-style: 14px;
+    font-weight: 100;
+    font-style: oblique;
+    color: #ff9100;
+}
+
+
+#section-produtos{
+    background-color: #040008;
+    padding: 50px 0px;
+}
+
+#section-produtos .card{
+    border: 1px solid #1d1d1d;
+    background-color: #040008;
+    padding: 20px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+#section-produtos .card-img{
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 200px;
+    transform: rotate(20deg);
+}
+
+#section-produtos .card-title{
+    margin-top: 10px;
+    font-size: 18px;
+    font-style: oblique;
+    color: #7e7e7e;
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+    
+    /* section */
+    #section{
+        width: 100%;
+        height: 100%;
+        background-image: url(../images/backgrounds/bg_07.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center right;
+        position: relative;
+        z-index: 2;
+    }
+
+
+    .section-box{
+        width: 100%;
+        height: 100%;
+        background: #00000042;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 50px 0px;
+        text-align: center;
+    }
+
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+
+
+}

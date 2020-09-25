@@ -1,0 +1,45 @@
+/* CSS Document - Fabricio Oliveira */
+
+
+    /* frameworks */
+
+        /* bootstrap */
+        @import url(../frameworks/bootstrap/css/bootstrap.css);
+
+        /* font-awesome */
+        @import url(../frameworks/fontawesome/css/all.css);
+
+    /* frameworks */
+
+
+    /* custom */
+
+        /* config */
+        @import url(config.css);
+
+        /* colors */
+        @import url(colors.css);
+
+        /* navbar */
+        @import url(navbar.css);
+
+        /* header */
+        @import url(header.css);
+
+        /* section*/
+        @import url(section.css);
+
+        /* footer */
+        @import url(footer.css);
+
+    /* custom */
+
+
+    /* fonts */
+
+        @font-face{
+            src: url(../fonts/Dry\ Brush.ttf);
+            font-family: brush;
+        }
+
+    /* fonts */

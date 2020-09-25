@@ -1,0 +1,82 @@
+/* CSS Document - Fabricio Oliveira */
+
+
+/* navbar */
+#navbar{
+    background: var(--navbar);
+    color: var(--navbar-color);
+    padding: 20px 0px;
+    border-bottom: 1px solid #111216;
+}
+
+/* navbar-brand*/
+#navbar .navbar-brand{
+    color: inherit;
+}
+
+/* navbar-brand*/
+#navbar .nav-logo{
+    width: 40px;
+    border-radius: 100px;
+}
+
+/* navbar-link */
+#navbar .nav-link{
+    color: inherit;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+
+#navbar .navbar-toggler{
+    color: inherit;
+    outline: none;
+}
+
+
+#navbar .navbar-toggler:focus{
+    outline: none;
+}
+
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+}
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+
+
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    #navbar{
+        padding: 15px 15px;
+    }
+
+    #navbar .navbar-nav{
+        padding-top: 20px;
+    }
+
+    /* navbar-link */
+    #navbar .nav-link{
+        padding: 15px 10px;
+        color: inherit;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+
+}
