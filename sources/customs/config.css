@@ -1,7 +1,10 @@
 /* CSS Document - Fabricio Oliveira */
 
+
+
 body{
     background: transparent;
+    scroll-behavior: smooth;
 }
 
 /* btn */
